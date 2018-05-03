@@ -1,21 +1,9 @@
-# Boilermaker
+# 🥃🍺 Boilermaker
 
-**TODO: Add description**
+Elixir app packaged with Distillery and installed with Homeew
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `boilermaker` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:boilermaker, "~> 0.1.0"}
-  ]
-end
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/boilermaker](https://hexdocs.pm/boilermaker).
-
+$ brew install https://raw.githubusercontent.com/jeffkreeftmeijer/boilermaker/master/boilermaker.rb
+$ boilermaker foreground
+Hello from Boilermaker!
+```
