@@ -15,4 +15,9 @@ defmodule Boilermaker do
   def hello do
     :world
   end
+
+  def start(_, _) do
+    IO.puts "Hello from Boilermaker!"
+    {:ok, self()}
+  end
 end
